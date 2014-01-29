@@ -37,6 +37,10 @@ i {
   font-style: none;
 }
 
+.icons span:hover {
+  color: #f1c40f;
+}
+
 
 .contact-container {
   margin-left: 10%;

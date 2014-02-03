@@ -94,18 +94,20 @@ i {
 
 
 .photo1-container img,
-.photo2-container img {
+.photo2-container img,
+.photo3-container img {
   width: 90%;
   height: 90%;
   background-color: #405166;
-  /*border-radius: 100em;*/
 }
 
+.photo3-container img {border-radius: 100em;}
+
 .photo1-container,
-.photo2-container {
+.photo2-container,
+.photo3-container {
   margin-top: 12%;
   max-width: 100%;
-
 }
 
 .photo1-container {
@@ -116,8 +118,14 @@ i {
   float:right;
 }
 
+.photo3-container p {
+  text-align: center;
+  width: 62%;
+  margin-left: 14%;
+}
+
 .photo1-container p,
-.photo2-container p {
+.photo2-container p,{
   width: 90%;
 }
 
